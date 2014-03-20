@@ -1,0 +1,12 @@
+{
+	"directories":[
+		{
+			"src":"./src",
+			"bin":"./lib",
+			"bare":true
+		}
+	],
+	"scripts":{
+		"bundle":"browserify lib/*.js -o lib/editor.bundle.js"
+	}
+}

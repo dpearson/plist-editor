@@ -1,0 +1,38 @@
+{
+	"name": "plist-editor",
+	"version": "0.0.1",
+	"description": "A browser-based editor for Apple Property Lists",
+	"keywords": ["plist", "property", "list", "editor"],
+	"homepage": "http://dpearson.me/plist.js/",
+	"bugs": {
+		"url": "https://github.com/dpearson/plist-editor/issues",
+		"email": "dpearson@dpearson.me"
+	},
+	"license": "BSD-2-Clause",
+	"author": {
+		"name": "David Pearson",
+		"url": "http://dpearson.me"
+	},
+
+	"main": "./lib/editor.js",
+	"directories": {
+		"lib": "./lib"
+	},
+
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dpearson/plist-editor.git"
+	},
+
+	"dependencies": {
+		"plistjs": "0.0.x"
+	},
+	"devDependencies": {
+		"oven-build": "0.x.x",
+		"browserify": "3.33.x"
+	},
+	"engines": {
+		"node": "0.10.x",
+		"npm": "1.4.x"
+	}
+}

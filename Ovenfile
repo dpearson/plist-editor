@@ -7,6 +7,6 @@
 		}
 	],
 	"scripts":{
-		"bundle":"browserify lib/*.js -o lib/editor.bundle.js"
+		"bundle":"browserify lib/*.js -o lib/editor.bundle.js --noparse node_modules/plistjs/node_modules/xmldom/dom-parser.js"
 	}
 }
